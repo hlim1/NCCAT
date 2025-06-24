@@ -1,5 +1,8 @@
 # NCCAT: Node Combination and Classification for AST Transformation
 
+## Publication:
+H. Lim, "Witness Test Program Generation through AST Node Combinations," 2025 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW), Naples, Italy, 2025, pp. 383-391, doi: 10.1109/ICSTW64639.2025.10962498.
+
 ## Requirements:
 - Latest Version of Python 3 (> 3.8)
     - `$sudo apt install python3.8`
