@@ -1,0 +1,12 @@
+{
+    "root":"",
+    "filename":"",
+    "compiler-path":"",
+    "compiler-gcov-path":"",
+    "compiler-gcov-root": "",
+    "linker":[],
+    "options":[],
+    "opt-off":"-O0",
+    "allPaths2gcno":"<path>/<to>/<llvm-root>/build4gcov/allPaths2gcno.txt",
+    "allPaths2gcda":"<path>/<to>/<llvm-root>/build4gcov/allPaths2gcda.txt"
+}

@@ -1,0 +1,43 @@
+{
+    "handled-types": [
+        "Constant",
+        "UnaryOp",
+        "BinaryOp",
+        "Assignment",
+        "Typename",
+        "Goto",
+        "Continue",
+        "IdentifierType",
+        "Break",
+        "Decl",
+        "ID"
+    ],
+    "unhandled-types": [
+        "TypeDecl",
+        "ParamList",
+        "ArrayDecl",
+        "EmptyStatement",
+        "ExprList",
+        "Struct",
+        "If",
+        "FuncCall",
+        "Compound",
+        "Union",
+        "Label",
+        "For",
+        "FuncDef",
+        "StructRef",
+        "Pragma",
+        "PtrDecl",
+        "EllipsisParam",
+        "FileAST",
+        "While",
+        "TernaryOp",
+        "ArrayRef",
+        "DeclList",
+        "Return",
+        "Cast",
+        "InitList",
+        "FuncDecl"
+    ]
+}

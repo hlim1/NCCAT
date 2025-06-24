@@ -1,0 +1,41 @@
+Bug Report Number, LLVM-SVN, Optimization Options, Ground Truth File, Bug Description
+15920,r181189,-O3,LoopVectorize.cpp,Prints an arbitrary number when compiled with the buggy version. '1' is the expected output.
+16552,r185684,-O3,LoopVectorize.cpp,Prints '0' when compiled with the buggy version. '1' is the expected output.
+16605,r186068,-Os,InstructionSimplify.cpp,Prints '1' when compiled with the buggy version. '0' is the expected output.
+16729,r187322,-O3,LoopVectorize.cpp,Floating point exception (core dumped)
+17288,r190911,-O3,LoopVectorize.cpp,Prints '8' when compiled with the buggy version. '0' is the expected output.
+17373,r191356,-O3,LoopStrengthReduce.cpp,Floating point exception (core dumped)
+17503,r192089,-Os,ConstantFold.cpp,Prints '-1' when compiled with the buggy version. '0' is the expected output.
+18000,r195148,-Os,ScalarEvolution.cpp,Prints '512' when compiled with the buggy version. '0' is the expected output.
+18101,r195973,-Os,InstCombineCompares.cpp,Prints '1' when compiled with the buggy version. '0' is the expected output.
+22613,r229360,-O2 or -O3,MergedLoadStoreMotion.cpp,Aborted (core dumped)
+23751,r238951,-Os,InstCombineCompares.cpp,Aborted (core dumped)
+24356,r243961,-O1,ScalarEvolution.cpp,Aborted (core dumped)
+24482,r245195,-Os,DeadStoreElimination.cpp,Aborted (core dumped)
+24757,r247047,-Os,ScalarEvolution.cpp,Prints '-1' when compiled with the buggy version. '127' is the expected output.
+24763,r247122,-Os,InstCombineCasts.cpp,Aborted (core dumped)
+24801,r247514,-m64+-O2,GlobalsModRef.cpp,Aborted (core dumped)
+26323,r258697,-O1,SimplifyCFG.cpp,Aborted (core dumped)
+27868,r271236,-O1,InstCombineMulDivRem.cpp,Floating point exception (core dumped)
+28610,r275702,-O1,FunctionAttrs.cpp,Aborted (core dumped)
+28763,r276903,-Os,EarlyCSE.cpp,Prints '1' when compiled with the buggy version. '0' is the expected output.
+30707,r284107,-Os,GlobalsModRef.cpp,Aborted (core dumped)
+32419,r298721b,-Os,LoopVectorize.cpp,Floating point exception (core dumped).
+32847,r298721c,-Os+-mllvm+-enable-newgvn,NewGVN.cpp,Prints '1' when compiled with the buggy version. Nothing is the expected output.
+33078,r303218,-Os,InstCombineCasts.cpp,Aborted (core dumped)
+34354,r311896,-O1,InstCombineSimplifyDemanded.cpp,Aborted (core dumped)
+17074,r189735,-O3,LoopVectorize.cpp,Prints '7' when compiled with the buggy version. '1' is the expected output.
+17732,r193653,-Os,ConstantFold.cpp,Prints '1' when compiled with the buggy version. '0' is the expected output.
+33185,r304014,-Os+-mllvm+-enable-newgvn,NewGVN.cpp,Prints '0' when compiled with the buggy version. '1' is the expected output.
+33305,r304675,-Os+-mllvm+-enable-newgvn,NewGVN.cpp,Aborted (core dumped)
+38641,r340155,-O2,InstCombineSelect.cpp,Prints '0' when compiled with the buggy version. Nothing is the expected output.
+26734,r261721,-O2,LoopUtils.cpp,Prints '2' when compiled with the buggy version. '0' is the expected output.
+22641,r229830,-O1,ScalarEvolution.cpp,Aborted (core dumped)
+27137,r264841,-O2,ValueTracking.cpp,Prints '1' when compiled with the buggy version. '-28' is the expected output.
+26266,r258508,-O1+-w,DemandedBits.cpp,Aborted (core dumped)
+21582,r220897,-O1,AliasSetTracker.cpp,Prints '0' when compiled with the buggy version. '1' is the expected output.
+28802,r277294,-O2,CloneFunction.cpp,Floating point exception (core dumped)
+25831,r255518,-O1+-w,GlobalsModRef.cpp,Prints '-1' when compiled with the buggy version. '0' is the expected output.
+28560,r275388,-m32+-O1,ExpandPostRAPseudos.cpp,Prints '0,0,0' when compiled with the buggy version. '0',4,0,4,0,4 is the expected output.
+29170,r279924,-m32+-Os,LegalizeIntegerTypes.cpp,Prints nothing when compiled with the buggy version. '0' is the expected output.
+32418,r298721a,-O1+-w,ValueTracking.cpp,Floating point exception (core dumped)
